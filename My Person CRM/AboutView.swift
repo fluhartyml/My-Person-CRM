@@ -31,7 +31,7 @@ struct AboutView: View {
                         Link(destination: URL(string: "https://fluharty.me/privacy")!) {
                             Label("Privacy", systemImage: "lock.shield")
                         }
-                        Link(destination: URL(string: "https://github.com/fluhartyml/My%20Person%20CRM")!) {
+                        Link(destination: URL(string: "https://github.com/fluhartyml/My-Person-CRM")!) {
                             Label("Source on GitHub", systemImage: "chevron.left.forwardslash.chevron.right")
                         }
                         Link(destination: URL(string: "mailto:michael@fluharty.com?subject=My%20Person%20CRM%20Feedback")!) {
