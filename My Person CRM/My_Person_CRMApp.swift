@@ -1,10 +1,3 @@
-//
-//  My_Person_CRMApp.swift
-//  My Person CRM
-//
-//  Created by Michael Fluharty on 5/4/26.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -12,10 +5,13 @@ import SwiftData
 struct My_Person_CRMApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            TrackedPerson.self,
+            Interaction.self,
         ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
+        let modelConfiguration = ModelConfiguration(
+            schema: schema,
+            isStoredInMemoryOnly: false
+        )
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {

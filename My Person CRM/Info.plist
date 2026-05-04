@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSContactsUsageDescription</key>
+	<string>My Person CRM uses Contacts to let you pick the people you want to keep track of and to surface their phone, email, and birthday on each person's detail screen.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>My Person CRM reads your calendar to show upcoming events that mention each person you track, so you can see what's coming up with them.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
